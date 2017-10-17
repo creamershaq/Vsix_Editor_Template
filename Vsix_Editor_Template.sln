@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vsix_Editor_Template", "Vsix_Editor_Template.csproj", "{216E80F0-E69D-4E83-8E77-295DA0C59441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B52ED48-20A6-476E-A51E-0BCA5EEC537E}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216E80F0-E69D-4E83-8E77-295DA0C59441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216E80F0-E69D-4E83-8E77-295DA0C59441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216E80F0-E69D-4E83-8E77-295DA0C59441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216E80F0-E69D-4E83-8E77-295DA0C59441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EC7B959-414C-4405-BD91-A7ED52C43A86}
+	EndGlobalSection
+EndGlobal

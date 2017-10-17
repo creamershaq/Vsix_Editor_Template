@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="4686efcd-2220-4817-9988-07ad1b11939e" Version="1.0" Language="de-DE" Publisher="Company" />
+        <DisplayName>Vsix_Editor_Template</DisplayName>
+        <Description xml:space="preserve">VSIX Editor Template, Simple way to Custom Editor VS2017</Description>
+        <License>LICENCE</License>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\PriviewImage.png</PreviewImage>
+        <Tags>VSIX, Editor, ToolboxItem</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\VSIX Editor with Toolbox 2017.zip" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
